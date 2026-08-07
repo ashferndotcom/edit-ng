@@ -1,0 +1,11 @@
+[plugin]
+name = "word_counter"
+display_name = "Document Statistics Counter"
+version = "0.1.0"
+author = "edit-ng Team"
+description = "Calculates word, character, and line count statistics in real time for current buffer or active selection."
+entry = "builtin"
+enabled = true
+
+[keybindings]
+stats_dialog = "Ctrl+Shift+C"

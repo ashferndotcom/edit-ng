@@ -1,0 +1,28 @@
+[package]
+name = "edit-ng"
+version = "0.1.0"
+edition = "2024"
+authors = ["Armaan <armaans@users.noreply.github.com>"]
+description = "edit-ng: A modern, powerful modeless TUI text editor with Tree-sitter, TOML themes, fuzzy finder, and multi-language support"
+license = "MIT"
+repository = "https://github.com/microsoft/edit"
+
+[[bin]]
+name = "edit-ng"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.28"
+tree-sitter = "0.24"
+tree-sitter-rust = "0.23"
+tree-sitter-highlight = "0.24"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+regex = "1.11"
+walkdir = "2.5"
+ignore = "0.4"
+unicode-width = "0.2"
+unicode-segmentation = "1.12"
+argh = "0.1"
+dirs = "5.0"
+chrono = "0.4"

@@ -1,0 +1,12 @@
+[plugin]
+name = "git_status"
+display_name = "Git Status & Gutter Diff"
+version = "0.1.0"
+author = "edit-ng Team"
+description = "Displays active git branch in the status bar and diff modification indicators in the editor gutter."
+entry = "builtin"
+enabled = true
+
+[settings]
+show_branch_in_statusbar = true
+show_gutter_diff = true

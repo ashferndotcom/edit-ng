@@ -1,0 +1,37 @@
+# edit-ng Fuzzy File Finder Plugin
+[plugin]
+name = "fuzzy_finder"
+display_name = "Fuzzy File Finder"
+version = "0.1.0"
+author = "edit-ng Team"
+description = "Lightning-fast fuzzy file search across workspace files with interactive preview, score ranking, and smart ignore filtering."
+entry = "builtin"
+enabled = true
+
+[keybindings]
+open = "Ctrl+P"
+alternate_open = "Ctrl+O"
+
+[settings]
+# Max search results to display in picker
+max_results = 100
+# Show live preview of selected file
+show_preview = true
+# Max lines of preview to display
+preview_lines = 40
+# Follow symbolic links when indexing
+follow_symlinks = false
+# Ignored directory names (in addition to .gitignore)
+ignored_directories = [
+    ".git",
+    "target",
+    "node_modules",
+    "dist",
+    "build",
+    ".idea",
+    ".vscode",
+    "__pycache__",
+    ".cache"
+]
+# Max file size in bytes to preview (1MB default)
+max_preview_size_bytes = 1048576
