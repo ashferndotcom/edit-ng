@@ -10,7 +10,7 @@ curl -fsSL https://github.com/ashferndotcom/edit-ng/releases/latest/download/edi
 Or, if you want to make the editor be runnable as a command in your PATH and then run it:
 
 ```bash
-curl -fsSL https://github.com/ashferndotcom/edit-ng/releases/latest/download/edit-ng -o edit-ng && chmod +x edit-ng && sudo mkdir edit-ng && sudo mv edit-ng /opt/ && sudo ln -s /opt/edit-ng/edit-ng /usr/local/bin/edit-ng && edit-ng
+curl -fsSL https://github.com/ashferndotcom/edit-ng/releases/latest/download/edit-ng -o edit-ng && chmod +x edit-ng && sudo mkdir -p /opt/edit-ng && sudo mv edit-ng /opt/edit-ng/ && sudo ln -s /opt/edit-ng/edit-ng /usr/local/bin/edit-ng && edit-ng
 ```
 
 ## Usage
