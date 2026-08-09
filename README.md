@@ -2,6 +2,15 @@
 
 edit-ng is a text editor based on [microsoft/edit](https://www.github.com/microsoft/edit).
 
+## Features different from the original
+- 35+ spoken languages added from the original.
+- Tree-sitter grammar for almost any programming language.
+- Faster startup.
+- Themes like CP437 DOS, Cyberpunk, Catppuccin Mocha, Dracula and more.
+- Support for plugins.
+- Modeless unlike other editors like vim or nvim.
+- Fuzzy file search for faster file managing.
+
 ## Installation
 Install the latest version of edit-ng from [GitHub Releases](https://github.com/ashferndotcom/edit-ng/releases/tag/v0.1.0) and `chmod +x ~/Downloads/edit-ng` to try it before manually installing or run the command below to make it more convenient:
 ```bash
